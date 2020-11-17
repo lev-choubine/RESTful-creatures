@@ -1,0 +1,17 @@
+Hello!
+<ul>
+    <% cryptos.forEach((crypto) => { %>
+      <li>Here is a n <%= crypto.name %>!</li>
+      <li>Here is a named <%= crypto.img_url %>!</li>
+      <img src="<%= crypto.img_url %>">
+    <% }) %> 
+  </ul>
+ Hi! H!
+
+  <!-- <h1>Cryptids</h1> 
+  <ul>   <% cryptos.forEach(cryptid => { %>   
+    <li><%= cryptid.name %></li>  
+     <br>  
+      <img src="<%= cryptid.img_url %>" alt="<%= cryptid.name %>">   
+      <% });
+       %> </ul>  -->
